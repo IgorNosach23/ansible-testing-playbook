@@ -1,1 +1,1 @@
-# ansiblePluginExample
+# ansible-plugin-playbook-sample
