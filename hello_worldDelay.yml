@@ -2,6 +2,6 @@
   hosts: all
   tasks:
   - pause: minutes = 5
-  - name: Hello Message
-  - debug:
-  msg: "Hello World!"
+- name: Print debug message
+   debug:
+      msg: Hello, world!
