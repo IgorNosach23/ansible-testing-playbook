@@ -3,6 +3,7 @@
   hosts: all
   
   tasks:
-  - pause: "{{ pauseInSec }}"
+  - pause:
+    seconds: "{{ pauseInSec }}"
   - name: Hello World!
     shell: echo "Hi! Tower is working."
