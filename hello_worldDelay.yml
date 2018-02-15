@@ -2,7 +2,7 @@
 - name: Hello World!
   hosts: all
   vars:
-    pauseInSec: "[:pauseInSec]"
+    pauseInSec: "[:pauseInSec|int]"
   tasks:
   - pause: seconds=pauseInSec
   - name: Hello World!
