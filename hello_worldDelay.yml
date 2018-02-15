@@ -1,9 +1,8 @@
 ---
 - name: Hello World!
   hosts: all
-  vars:
-    pauseInSec: "{{ pauseInSec|int }}"
+  
   tasks:
-  - pause: pauseInSec
+  - pause: {{ pauseInSec|int }}
   - name: Hello World!
     shell: echo "Hi! Tower is working."
