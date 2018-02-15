@@ -2,7 +2,7 @@
 - name: Hello World!
   hosts: all
   vars:
-    pauseInSec: {{ pauseInSec|int }}
+    pauseInSec: "{{ pauseInSec|int }}"
   tasks:
   - pause: pauseInSec
   - name: Hello World!
