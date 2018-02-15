@@ -4,6 +4,6 @@
   
   tasks:
   - pause:
-    seconds: "{{ pauseInSec }}"
+      seconds: "{{ pauseInSec }}"
   - name: Hello World!
     shell: echo "Hi! Tower is working."
